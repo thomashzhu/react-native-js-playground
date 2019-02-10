@@ -1,0 +1,18 @@
+{
+    "env": {
+      "node": true,
+      "browser": false,
+      "es6": true
+    },
+    "parser": "babel-eslint",
+    "extends": "airbnb",
+    "rules": {
+      "import/prefer-default-export": "off",
+      "no-trailing-spaces": ["error", {"skipBlankLines": true}],
+      "no-underscore-dangle": [0],
+      "no-use-before-define": ["error", { "variables": false }],
+      "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+      "react/prop-types": ["error", { "ignore": ["navigation"] }],
+      "strict": ["error", "global"]
+    }
+}
