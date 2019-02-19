@@ -19,6 +19,8 @@ class _HomeScreen extends React.Component {
     return (
       <SafeAreaView style={styles.safeAreaView}>
         <Button onPress={this.handleButtonPress} title="HomeScreen" />
+
+        
       </SafeAreaView>
     );
   }
